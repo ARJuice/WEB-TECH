@@ -1,14 +1,16 @@
+import Link from "next/link";
+
 export const metadata = {
-  title: "About Page",
+  title: "Home Page",
 };
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <br />
-      <p>This is not my first NextJS work. </p>
-      <p>I'm Arjun from S5 CS-B.</p>
-    </div>
+    <main>
+      <h1>Home Page</h1>
+      <p>
+        <Link href="/about">Go to About Page (Instant Nav)</Link>
+      </p>
+    </main>
   );
 }
