@@ -1,7 +1,8 @@
 export default function NotFound() {
   return (
-    <main>
-      <h1>404 - Oops! Page Not Found</h1>
-    </main>
+    <div>
+      <h1>404 - Student Not Found</h1>
+      <p>The requested student does not exist.</p>
+    </div>
   );
 }
